@@ -1,6 +1,8 @@
 package Bundle::WWW::Search;
 
-$VERSION = '1.01';
+$VERSION = '1.03';
+
+1;
 
 __END__
 
@@ -13,6 +15,8 @@ Bundle::WWW::Search - A bundle to install basic WWW::Search modules and prerequi
 C<perl -MCPAN -e 'install Bundle::WWW::Search'>
 
 =head1 CONTENTS
+
+File::Spec		- prerequisite
 
 Bundle::LWP		- prerequisite
 
