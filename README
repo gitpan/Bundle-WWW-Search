@@ -1,0 +1,22 @@
+Bundle::WWW::Search - A bundle to install basic WWW::Search modules and prerequisites
+
+Version 1.01 - 2000-03-10
+Bundled by: Martin Thurn <martinthurn@iname.com>
+
+To install this Bundle file locally:
+
+perl Makefile.PL
+make install
+
+Then, for a full list of the modules which this bundle
+installs, use:
+
+perldoc Bundle::WWW::Search
+
+Finally, to install the modules which the bundle lists:
+
+perl -MCPAN -e 'install Bundle::WWW::Search'
+
+This bundle gathers together all of the prerequisite modules for
+WWW::Search, as well as the basic WWW::Search mechanism itself.
+
