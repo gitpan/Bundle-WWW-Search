@@ -1,6 +1,6 @@
 package Bundle::WWW::Search;
 
-$VERSION = '1.03';
+$VERSION = '1.04';
 
 1;
 
@@ -16,15 +16,21 @@ C<perl -MCPAN -e 'install Bundle::WWW::Search'>
 
 =head1 CONTENTS
 
-File::Spec		- prerequisite
-
 Bundle::LWP		- prerequisite
 
-URI::Escape             - prerequisite
+File::Spec		- prerequisite
 
 HTML::Parser            - prerequisite
-
 HTML::TreeBuilder       - prerequisite
+
+HTTP::Cookies           - prerequisite
+HTTP::Request           - prerequisite
+HTTP::Status            - prerequisite
+
+LWP::RobotUA            - prerequisite
+LWP::UserAgent          - prerequisite
+
+URI::Escape             - prerequisite
 
 WWW::Search
 
